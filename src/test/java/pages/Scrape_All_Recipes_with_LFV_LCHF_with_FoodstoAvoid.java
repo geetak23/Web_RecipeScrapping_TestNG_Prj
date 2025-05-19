@@ -69,6 +69,7 @@ public class Scrape_All_Recipes_with_LFV_LCHF_with_FoodstoAvoid {
 		Map<String, Object[]> recipes_LCHF_Allergy_Nut = new TreeMap<String, Object[]>();
 		// int total_recipes = 0;// counter for total recipes
 		searchFood("");
+		System.out.println("### Recipes Scrapping stared.... ###");
 		while (true) {
 			// Wait for page to load recipes
 			new WebDriverWait(driver, Duration.ofSeconds(2)).until(
@@ -207,7 +208,7 @@ public class Scrape_All_Recipes_with_LFV_LCHF_with_FoodstoAvoid {
 
 					if (validLFVRecipe) {
 
-						System.out.println("Valid LFV Item ");
+						System.out.println("Valid LFV Recipe ");
 
 						// check add on items
 						boolean addLFVItemcheck = false;
@@ -436,6 +437,7 @@ public class Scrape_All_Recipes_with_LFV_LCHF_with_FoodstoAvoid {
 
 		// All recipes
 		dbQuery.insertRow(conn, "recipes_scrapped_by_foodcategory", recipes_scrapped_treemap);
+		System.out.println("### Finished Scrapping Recipes. ###");
 
 	}
 

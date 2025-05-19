@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-18T12:24:57 CDT" name="Default suite" finished-at="2025-05-18T13:41:28 CDT" duration-ms="4591211">
+    <groups>
+    </groups>
+    <test started-at="2025-05-18T12:24:57 CDT" name="Default test" finished-at="2025-05-18T13:41:28 CDT" duration-ms="4591211">
+      <class name="testCases.TarlaDalalTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TarlaDalalTest@6a4f1a55]" started-at="2025-05-18T12:24:57 CDT" name="setUp" finished-at="2025-05-18T12:25:25 CDT" duration-ms="28099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="scrapeRecipes()[pri:0, instance:testCases.TarlaDalalTest@6a4f1a55]" started-at="2025-05-18T12:25:25 CDT" name="scrapeRecipes" finished-at="2025-05-18T13:41:27 CDT" duration-ms="4562212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrapeRecipes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TarlaDalalTest@6a4f1a55]" started-at="2025-05-18T13:41:27 CDT" name="tearDown" finished-at="2025-05-18T13:41:28 CDT" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TarlaDalalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
